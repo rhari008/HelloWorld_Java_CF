@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class HelloWorld
  */
-@WebServlet("/Hello")
+@WebServlet("/")
 public class HelloWorld extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
@@ -32,10 +32,7 @@ public class HelloWorld extends HttpServlet {
 		
 		response.getWriter().println("Hello Cloud Foundry!\n");
 		response.getWriter().println("Java Version :"+ System.getProperty("java.version"));
-		
-	
-		
-		
+
 	}
 
 	/**
