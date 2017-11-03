@@ -1,6 +1,6 @@
 ---
 applications:
 - name: hello-world-java-cf
-  memory: 256M
+  memory: 1024M
   instances: 1
   path: target/HelloWorld-0.0.1-SNAPSHOT.war
